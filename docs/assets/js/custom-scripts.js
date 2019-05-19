@@ -25,11 +25,11 @@
             }
         });
 
-        $(".bounce").click(function() {
-          $('html,body').animate({
-              scrollTop: $(".mh-home").offset().top},
-              1500);
-      });
+      //   $(".bounce").click(function() {
+      //     $('html,body').animate({
+      //         scrollTop: $(".mh-home").offset().top},
+      //         1500);
+      // });
 
           
        
@@ -148,33 +148,33 @@
     */   
     $('#portfolio-item').mixItUp();
     
-    /*
-    |=================
-    | Client review
-    |================
-    */   
-     $('#mh-client-review').owlCarousel({
-        loop: false,
-        responsiveClass: true,
-        nav: true,
-        autoplay: false,
-        smartSpeed: 450,
-        stopOnHover : true,
-        animateIn: 'slideInRight',
-        animateOut: 'slideOutLeft',
-        autoplayHoverPause: true,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          768: {
-            items: 2,
-          },
-          1170: {
-            items: 3,
-          }
-        }
-    });  
+    // /*
+    // |=================
+    // | Client review
+    // |================
+    // */   
+    //  $('#mh-client-review').owlCarousel({
+    //     loop: false,
+    //     responsiveClass: true,
+    //     nav: true,
+    //     autoplay: false,
+    //     smartSpeed: 450,
+    //     stopOnHover : true,
+    //     animateIn: 'slideInRight',
+    //     animateOut: 'slideOutLeft',
+    //     autoplayHoverPause: true,
+    //     responsive: {
+    //       0: {
+    //         items: 1,
+    //       },
+    //       768: {
+    //         items: 2,
+    //       },
+    //       1170: {
+    //         items: 3,
+    //       }
+    //     }
+    // });  
     
     /*
     |=================

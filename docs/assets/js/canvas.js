@@ -34,7 +34,7 @@ function Particle(x, y, radius, color) {
     this.color = color
     this.radians = Math.random()* Math.PI *2
     this.velocity = 11
-    this.distanceFromCenter = randomIntFromRange(200,900)
+    this.distanceFromCenter = randomIntFromRange(100,300)
     this.lastMouse = {x:x,y:y}
     
 
