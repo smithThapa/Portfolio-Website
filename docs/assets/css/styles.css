@@ -508,6 +508,8 @@ h6 {
   font-family: "Lora", sans-serif;
   font-size: 80px;
   color: var(--main-primary-color);
+  line-height: 70px;
+  padding: 20px 0px;
 }
 
 .white-version .mh-project-gallery .grid-item figure figcaption a {
@@ -1169,8 +1171,14 @@ body {
   margin-right: 10px;
 }
 
+.mh-education h3 {
+  text-align: center;
+}
+
 .certificate-title {
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 /* .certificates {
@@ -1185,7 +1193,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  grid-gap: 20px;
 }
 
 .certificates div {
@@ -1215,7 +1223,7 @@ body {
   }
   .certificates img {
     justify-self: center;
-    height: 500px;
+    height: 400px;
     width: auto;
   }
 }
@@ -1239,11 +1247,18 @@ body {
   }
 }
 
+.projects-title,
+.contact-title {
+  text-align: center;
+  padding: 40px;
+}
+
 /*
     ==============
       Portfolio
     ==============
 */
+
 .portfolio-nav {
   margin: 0 auto;
   margin-bottom: 40px;
