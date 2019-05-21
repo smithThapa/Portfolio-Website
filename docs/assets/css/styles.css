@@ -484,6 +484,7 @@ h6 {
 }
 .white-version div {
   color: #000;
+  word-break: initial;
 }
 .white-version .form-control {
   color: #fff;
@@ -884,9 +885,6 @@ body {
        ABOUT
     ==============
 */
-.mh-about {
-  font-size: 20px;
-}
 
 .mh-about .mh-about-inner h2 {
   margin-bottom: 20px;
@@ -896,6 +894,7 @@ body {
   margin-bottom: 30px;
   opacity: 1;
 }
+
 .mh-about .mh-about-inner .btn {
   margin-top: 20px;
 }
